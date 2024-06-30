@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jaro:opsz@6..72&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: visible;
+}
+
+
+
+/* background-color: aliceblue; */
+
+.navbar {
+  height: 100px;
+  background-color:visible;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  height: 240px;
+
+
+}
+.home-articles .home-title{
+  margin-left: 60px;
+}
+.home-articles {
+
+  padding: 40px;
+
+
+}
+
+.article-content {
+  padding: 20px;
+}
+
+.article-1 {
+  display: flex;
+
+
+}
+
+.article-img img {
+  height: 200px;
+  border-radius: 200px;
+}
+
+.article-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 30px;
+  background-color: rgb(233, 233, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+}

@@ -1,0 +1,76 @@
+.max-width3{
+    max-width: 80%;
+}
+.max-width1 {
+    max-width: 75%;
+}
+.max-width2{
+    max-width: 100%;
+}
+.m-auto{
+    margin: auto;
+}
+.navbar .left{
+    display: flex;
+    align-items: center;
+
+}
+.content{
+    display: flex;
+    
+}
+.contentright img{
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 15px;
+}
+.contentleft{
+    flex-direction: column;
+    display: flex;
+    
+    justify-content: center;
+}
+.contentleft h1{
+    text-align: left;
+    position: static;
+    white-space:nowrap ;
+    overflow: hidden;
+    animation: typing 3s steps(40,end)infinite;
+}
+@keyframes typing{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+.left ul{
+    display: flex;
+}
+.left ul li{
+    list-style: none; 
+    justify-content: inside;
+    margin: 12px;
+    padding: 10px;
+    font-size: 18px;
+}
+.left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.left ul  li a:hover{
+    color: snow;
+}
+.logo{
+    font-size: 20px;
+}
+.right input{
+    border: 1px solid gainsboro;
+    height: 26px;
+    width: 160px;
+    border-radius: 20px;
+}
+.right .btn{
+    height: 20px;
+    width: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
